@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Détection des points d'articulation</title>
+        <!-- START Style Sheets include-->
+        <link href="css/bootstrap/bootstrap.css" type="text/css" rel="stylesheet"/>
+        <link href="css/alg.css" type="text/css" rel="stylesheet"/>
+            <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="js/algo.js"></script>
+           <script src="js/js/cytoscape.min.js"></script>
+
+
+
+    </head>
+    <body>
+      <h1>Déterminer les points d'articulation d'un graphe</h1>
+      <div class="container">
+        <div class="data-container col-md-4">
+            <div class="panel ">
+              <div class="panel-heading">
+              <h4 class="panel-title">Configuration de graphe</h4>
+              </div>
+                <div class="panel-body">
+                    <div class="box-line">
+                      <div>
+                        <h6>Choisir le nombre de sommets:</h6>
+                        <input id="nbNode" min="1" max="20" type="number" class="number" required/>
+                      </div>
+
+                        <h6>Définir les arrets:</h6>
+                        <input id="FirstNode" min="1" type="number" class="number" />
+                        <input id="SecondNode" min="1" type="number" class="number" />
+                        <!--<h6>Enlever une arrete:</h6>
+                        <input min="1" type="number" class="number"/>
+                        <input min="1" type="number" class="number"/>-->
+                    </div>
+                    <br>
+                    <div class="panel-footer">
+                        <div class="box-line">
+                          <button id="valider" type="button" name="button" class="btn btn-primary">Valider</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div id="graph-container" class="panel panel-default">
+
+            </div>
+        </div>
+      </div>
+    </body>
+</html>

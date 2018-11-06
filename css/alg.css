@@ -1,0 +1,38 @@
+body
+{
+  background-color:#36465d;
+}
+h1
+{
+  color: #f1982e;
+  text-align: center;
+}
+.data-container
+{
+  margin-left: -9%;
+  margin-top: 8%;
+  width: 25%;
+}
+.panel,.panel-footer
+{
+  background-color: #1f364b;
+  color:#ffffff;
+}
+.panel-heading
+{
+  background-color: #ffffff;
+  color: #a7a7a7;
+}
+.box-line .number
+{
+  width:40%;
+  display: inline;
+  color:#282828;
+}
+#graph-container
+{
+  background-color: #20374c;
+  margin-left: 28%;
+   margin-top: 5%;
+   height: 400px;
+}
